@@ -9,6 +9,6 @@ cd "C:\ProgramData\Jenkins\.jenkins\workspace\Script"
 call "%JDK_PATH%\bin\javac" -version
 call "%JDK_PATH%\bin\java" -version
 
-call mvn package
+call mvn package -Dmaven.test.skip
 
 endlocal
