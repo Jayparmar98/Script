@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: febdev
+ 
+
+
+
+image:
+  upload:
+    path: C:/FebDeskbook/images/
+          
+          
