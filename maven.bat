@@ -4,7 +4,7 @@ setlocal
 
 set JDK_PATH=C:\Program Files\Java\jdk-17
 
-cd "C:\jenkins_workspace\workspace\DeskBook-FEB\Deskbook-Backend-Java-Feb\"
+cd "C:\ProgramData\Jenkins\.jenkins\workspace\Script"
 
 call "%JDK_PATH%\bin\javac" -version
 call "%JDK_PATH%\bin\java" -version
